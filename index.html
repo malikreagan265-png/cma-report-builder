@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CMA Report Builder — Win the Listing Appointment</title>
+  <meta name="description" content="CMA report with comp table, market narrative, and three pricing strategies with pros, cons, and agent recommendation. $67 one-time." />
+  <meta name="keywords" content="CMA report template, comparative market analysis, real estate listing presentation, CMA generator, pricing strategy real estate, listing appointment tools" />
+  <link rel="canonical" href="https://malikreagan.gumroad.com/l/cma-report-builder" />
+  <meta property="og:title" content="CMA Report Builder — CMA Generator, Market Narrative & Pricing Strategy" />
+  <meta property="og:description" content="CMA report with comp table, market narrative, and three pricing strategies. Win more listing appointments. $67 one-time." />
+  <meta property="og:type" content="website" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"CMA Report Builder","applicationCategory":"BusinessApplication","description":"Comparative market analysis generator with comp table and price range banner, market narrative builder, and three-strategy pricing tool for real estate listing appointments.","offers":{"@type":"Offer","price":"67.00","priceCurrency":"USD"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"18"}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{
+      --void:#080B0F;--void2:#0D1117;--void3:#161B22;
+      --emerald:#10B981;--em2:#34D399;--em-dim:#10B98112;--em-soft:#10B98124;
+      --silver:#E6EDF3;--silver2:#B1BAC4;--silver3:#7D8590;--silver4:#3D444D;
+      --rule:#21262D;--rule2:#30363D;
+      --sand:#F9FAFB;--sand2:#F3F4F6;--rule-l:#E5E7EB;
+      --ink:#111827;--ink2:#374151;--ink3:#6B7280;--ink4:#9CA3AF;
+      --red:#EF4444;--amber:#F59E0B;--blue:#3B82F6;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{background:var(--sand);color:var(--ink);font-family:'Plus Jakarta Sans',sans-serif;font-size:15px;line-height:1.7;-webkit-font-smoothing:antialiased;}
+    .container{max-width:880px;margin:0 auto;padding:0 36px}
+    nav{background:var(--void);border-bottom:2px solid var(--emerald);padding:0 36px;height:56px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100;}
+    .nav-logo{font-family:'Plus Jakarta Sans',sans-serif;font-size:16px;font-weight:800;color:#fff;text-decoration:none;letter-spacing:-0.3px}
+    .nav-logo span{color:var(--em2)}
+    .nav-cta{background:var(--emerald);color:#fff;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;padding:9px 20px;text-decoration:none;font-weight:700;transition:all 0.15s;border-radius:6px;}
+    .nav-cta:hover{background:var(--em2);transform:translateY(-1px)}
+    .hero{background:var(--void);padding:88px 0 72px;border-bottom:3px solid var(--emerald);position:relative;overflow:hidden;}
+    .hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 0% 100%,rgba(16,185,129,0.09) 0%,transparent 60%);}
+    .hero-inner{position:relative}
+    .hero-kicker{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:5px;text-transform:uppercase;color:var(--silver4);margin-bottom:20px;display:flex;align-items:center;gap:12px;}
+    .hero-kicker::before{content:'📊';font-size:14px}
+    .hero-h1{font-size:clamp(36px,5.5vw,70px);font-weight:800;line-height:1.0;color:#fff;margin-bottom:24px;letter-spacing:-1px;}
+    .hero-h1 em{font-style:normal;color:var(--em2);display:block;}
+    .hero-sub{font-size:16px;color:var(--silver3);max-width:520px;line-height:1.8;margin-bottom:40px;font-weight:300;}
+    .hero-actions{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:48px;}
+    .btn-primary{background:var(--emerald);color:#fff;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;text-transform:uppercase;padding:16px 40px;text-decoration:none;font-weight:700;transition:all 0.2s;display:inline-block;border-radius:8px;}
+    .btn-primary:hover{background:var(--em2);transform:translateY(-2px);box-shadow:0 10px 40px rgba(16,185,129,0.3)}
+    .btn-ghost{color:var(--silver4);font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:2px;text-decoration:none;border-bottom:1px solid var(--rule2);padding-bottom:2px;text-transform:uppercase;transition:all 0.15s;}
+    .btn-ghost:hover{color:var(--silver2)}
+    /* cma preview */
+    .cma-preview{background:var(--void2);border:1px solid var(--rule2);overflow:hidden;max-width:500px;border-radius:8px;}
+    .cp-head{background:var(--void3);border-bottom:3px solid var(--emerald);padding:10px 14px}
+    .cp-label{font-family:'JetBrains Mono',monospace;font-size:7px;letter-spacing:3px;text-transform:uppercase;color:var(--em2);margin-bottom:3px}
+    .cp-address{font-size:14px;font-weight:800;color:#fff}
+    .cp-meta{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--silver4);margin-top:4px}
+    .cp-banner{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:var(--rule2)}
+    .cpb-cell{padding:10px 8px;text-align:center}
+    .cpb-val{font-family:'JetBrains Mono',monospace;font-size:14px;font-weight:700;line-height:1;margin-bottom:2px}
+    .cpb-lbl{font-family:'JetBrains Mono',monospace;font-size:7px;letter-spacing:1px;text-transform:uppercase;color:var(--silver4)}
+    .cp-section{padding:7px 14px;border-bottom:1px solid var(--rule2)}
+    .cps-label{font-family:'JetBrains Mono',monospace;font-size:7px;letter-spacing:2px;text-transform:uppercase;color:var(--em2);margin-bottom:3px}
+    .cp-line{height:4px;background:var(--rule2);border-radius:2px;margin-bottom:2px}
+    .cp-rec{background:var(--em-dim);border-left:3px solid var(--emerald);padding:8px 14px}
+    .cpr-label{font-family:'JetBrains Mono',monospace;font-size:7px;letter-spacing:2px;text-transform:uppercase;color:var(--em2);margin-bottom:3px}
+    .cpr-price{font-family:'JetBrains Mono',monospace;font-size:16px;font-weight:700;color:#fff}
+    /* sections */
+    .section{padding:88px 0;border-top:1px solid var(--rule-l);}
+    .eyebrow{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:5px;text-transform:uppercase;color:var(--emerald);margin-bottom:16px;}
+    .section-title{font-size:clamp(28px,4.5vw,50px);font-weight:800;line-height:1.0;margin-bottom:14px;letter-spacing:-0.5px;}
+    .section-title em{font-style:normal;color:var(--emerald);}
+    .section-sub{font-size:15px;color:var(--ink3);max-width:540px;line-height:1.8;font-weight:300;margin-bottom:52px;}
+    /* tools */
+    .tool-list{display:flex;flex-direction:column;gap:2px;margin-top:48px}
+    .tool-row{display:grid;grid-template-columns:56px 1fr;background:#fff;border:1px solid var(--rule-l);border-radius:8px;overflow:hidden;margin-bottom:2px;}
+    .tool-num{display:flex;align-items:center;justify-content:center;background:var(--void);color:var(--em2);font-family:'JetBrains Mono',monospace;font-size:16px;font-weight:700;border-right:1px solid var(--rule2);}
+    .tool-body{padding:22px 26px}
+    .tool-tag{font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:3px;text-transform:uppercase;color:var(--emerald);margin-bottom:8px}
+    .tool-name{font-size:20px;font-weight:800;color:var(--ink);margin-bottom:8px;letter-spacing:-0.3px}
+    .tool-desc{font-size:13px;color:var(--ink3);line-height:1.7;margin-bottom:12px;font-weight:300}
+    .tool-chips{display:flex;gap:8px;flex-wrap:wrap}
+    .tool-chip{font-family:'JetBrains Mono',monospace;font-size:9px;padding:3px 10px;border:1px solid var(--rule-l);color:var(--ink4);text-transform:uppercase;letter-spacing:1px;border-radius:20px}
+    /* insight */
+    .insight-box{background:var(--void);border:1px solid var(--rule2);border-left:4px solid var(--emerald);padding:28px 32px;margin-top:48px;border-radius:8px}
+    .ib-label{font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:3px;text-transform:uppercase;color:var(--em2);margin-bottom:10px}
+    .ib-title{font-size:20px;font-weight:800;color:#fff;letter-spacing:-0.3px;margin-bottom:10px}
+    .ib-text{font-size:14px;color:var(--silver3);line-height:1.8;font-weight:300}
+    /* strategy preview */
+    .strategy-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:48px}
+    @media(max-width:600px){.strategy-grid{grid-template-columns:1fr}}
+    .strategy-card{background:#fff;border:1px solid var(--rule-l);padding:18px 20px;border-radius:8px}
+    .sc-type{font-family:'JetBrains Mono',monospace;font-size:8px;padding:3px 10px;border-radius:20px;display:inline-block;margin-bottom:10px}
+    .sc-name{font-size:16px;font-weight:800;color:var(--ink);margin-bottom:6px;letter-spacing:-0.2px}
+    .sc-desc{font-size:13px;color:var(--ink3);line-height:1.6;font-weight:300}
+    /* testimonials */
+    .test-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;margin-top:48px}
+    .test-card{background:#fff;border:1px solid var(--rule-l);padding:26px;border-top:3px solid var(--emerald);border-radius:8px}
+    .stars{color:var(--emerald);font-size:12px;letter-spacing:3px;margin-bottom:12px}
+    .test-card p{font-size:14px;font-style:italic;color:var(--ink2);line-height:1.8;margin-bottom:14px}
+    .test-attr{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--ink4);text-transform:uppercase}
+    /* pricing */
+    .pricing-card{max-width:520px;margin:48px auto 0;background:#fff;border:2px solid var(--void);overflow:hidden;border-radius:12px}
+    .pricing-top{background:var(--void);padding:40px 44px;text-align:center}
+    .pricing-kicker{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:4px;text-transform:uppercase;color:var(--silver4);margin-bottom:14px}
+    .price{font-family:'Plus Jakarta Sans',sans-serif;font-size:80px;font-weight:800;color:var(--em2);line-height:1;letter-spacing:-2px}
+    .price-sub{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--silver4);margin-top:6px}
+    .pricing-body{padding:36px 44px}
+    .feature-list{list-style:none;margin-bottom:32px}
+    .feature-list li{display:flex;gap:12px;padding:11px 0;border-bottom:1px solid var(--rule-l);font-size:13px;color:var(--ink2);line-height:1.5}
+    .feature-list li:last-child{border-bottom:none}
+    .check{color:var(--emerald);flex-shrink:0;padding-top:2px}
+    .btn-purchase{display:block;width:100%;background:var(--emerald);color:#fff;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:3px;text-transform:uppercase;padding:18px;text-align:center;text-decoration:none;font-weight:700;transition:all 0.15s;border-radius:8px}
+    .btn-purchase:hover{background:var(--em2);transform:translateY(-1px)}
+    .guarantee{text-align:center;margin-top:14px;font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:1px;color:var(--ink4);text-transform:uppercase}
+    /* faq */
+    .faq-list{margin-top:48px;border:1px solid var(--rule-l);background:#fff;border-radius:8px;overflow:hidden}
+    .faq-item{border-bottom:1px solid var(--rule-l)}.faq-item:last-child{border-bottom:none}
+    .faq-q{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;padding:22px 28px;cursor:pointer;font-size:16px;font-weight:700;color:var(--ink);line-height:1.3;background:none;border:none;width:100%;text-align:left;transition:background 0.15s}
+    .faq-q:hover{background:var(--sand2)}
+    .faq-toggle{color:var(--emerald);font-size:22px;font-weight:300;line-height:1;flex-shrink:0;font-family:sans-serif}
+    .faq-a{display:none;padding:0 28px 22px;font-size:14px;color:var(--ink3);line-height:1.8;font-weight:300}
+    .cta-section{background:var(--void);padding:96px 0;border-top:3px solid var(--emerald);text-align:center}
+    .cta-section h2{font-size:clamp(28px,5vw,56px);font-weight:800;color:#fff;line-height:1.0;margin-bottom:16px;letter-spacing:-0.5px}
+    .cta-section h2 em{font-style:normal;color:var(--em2)}
+    .cta-section p{font-size:15px;color:var(--silver4);margin-bottom:36px;max-width:440px;margin-left:auto;margin-right:auto;line-height:1.8;font-weight:300}
+    .cta-note{margin-top:16px;font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--silver4);letter-spacing:2px;text-transform:uppercase}
+    footer{padding:28px 36px;border-top:1px solid var(--rule-l);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;background:var(--sand2)}
+    .footer-logo{font-size:14px;font-weight:800;color:var(--ink3)}
+    .footer-links{display:flex;gap:20px}
+    .footer-links a{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--ink4);text-decoration:none;letter-spacing:1px;text-transform:uppercase}
+    .footer-links a:hover{color:var(--ink)}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+    .hero-inner>*{animation:fadeUp 0.45s ease both;opacity:0}
+    .hero-kicker{animation-delay:0.05s}.hero-h1{animation-delay:0.1s}.hero-sub{animation-delay:0.18s}.hero-actions{animation-delay:0.24s}.cma-preview{animation-delay:0.3s}
+    @media(max-width:600px){.container{padding:0 20px}.section{padding:60px 0}nav,footer{padding:14px 20px}.pricing-top,.pricing-body{padding:28px 24px}}
+  </style>
+</head>
+<body>
+<nav>
+  <a href="#" class="nav-logo">CMA Report <span>Builder</span></a>
+  <a href="https://malikreagan.gumroad.com/l/cma-report-builder" class="nav-cta">Get It — $67</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-kicker">Real Estate Agent Suite · Listing Tools</div>
+      <h1 class="hero-h1">Win the listing<em>appointment.</em></h1>
+      <p class="hero-sub">Sellers who trust the CMA sign the listing agreement. CMA report with comp table, market narrative, and three pricing strategies — the document that builds confidence before anyone picks up a pen.</p>
+      <div class="hero-actions">
+        <a href="https://malikreagan.gumroad.com/l/cma-report-builder" class="btn-primary">Get the CMA Builder — $67</a>
+        <a href="#tools" class="btn-ghost">See all three tools ↓</a>
+      </div>
+      <div class="cma-preview">
+        <div class="cp-head">
+          <div class="cp-label">Comparative Market Analysis</div>
+          <div class="cp-address">42 Maple Avenue, Austin TX</div>
+          <div class="cp-meta">4BD / 3BA / 2,400 sq ft · Built 2018 · Barton Hills</div>
+        </div>
+        <div class="cp-banner">
+          <div class="cpb-cell" style="background:#0D1117"><div class="cpb-val" style="color:var(--silver4)">$845K</div><div class="cpb-lbl">Conservative</div></div>
+          <div class="cpb-cell" style="background:rgba(16,185,129,0.08)"><div class="cpb-val" style="color:var(--em2)">$865K</div><div class="cpb-lbl">Recommended</div></div>
+          <div class="cpb-cell" style="background:#0D1117"><div class="cpb-val" style="color:var(--silver4)">$885K</div><div class="cpb-lbl">Aggressive</div></div>
+        </div>
+        <div class="cp-section"><div class="cps-label">Comparable Analysis</div><div class="cp-line" style="width:91%"></div><div class="cp-line" style="width:77%"></div></div>
+        <div class="cp-section"><div class="cps-label">Subject Property Strengths</div><div class="cp-line" style="width:84%"></div></div>
+        <div class="cp-section" style="border-bottom:none"><div class="cps-label">Pricing Rationale</div><div class="cp-line" style="width:88%"></div><div class="cp-line" style="width:65%"></div></div>
+        <div class="cp-rec"><div class="cpr-label">Recommendation</div><div class="cpr-price">$865,000</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="eyebrow">Why agents lose listings</p>
+    <h2 class="section-title">The number wasn't wrong.<em>The seller didn't believe it.</em></h2>
+    <div class="insight-box">
+      <div class="ib-label">The real problem</div>
+      <div class="ib-title">Sellers who feel the CMA was thorough sign. Sellers who feel the agent pulled three comps and guessed a number go with someone else — or sign and spend the next 60 days arguing about a price reduction.</div>
+      <div class="ib-text">A CMA that presents comps without context leaves the seller to draw their own conclusions. A market narrative that explains why the market is where it is, an analysis that explains the comps, and a pricing strategy that explains the options — that's the document that builds the trust that closes the listing appointment.</div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="tools">
+  <div class="container">
+    <p class="eyebrow">Three tools</p>
+    <h2 class="section-title">Report. Narrate. Strategy.<em>Complete listing toolkit.</em></h2>
+    <p class="section-sub">From the CMA report that shows the analysis was done properly to the pricing strategy that gives the seller a genuine choice — one tool for the full listing appointment.</p>
+    <div class="tool-list">
+      <div class="tool-row"><div class="tool-num">01</div><div class="tool-body"><div class="tool-tag">The Report</div><div class="tool-name">CMA Report Generator</div><div class="tool-desc">Enter the subject property and comps — get a complete CMA with three-cell price banner (Conservative/Recommended/Aggressive), executive summary, full comp table with subject property highlighted, named analysis sections, and a recommendation box with pricing rationale. If the seller's target price is entered, the tool addresses the gap diplomatically in the document.</div><div class="tool-chips"><span class="tool-chip">Price range banner</span><span class="tool-chip">Comp table</span><span class="tool-chip">Seller note</span><span class="tool-chip">Named sections</span></div></div></div>
+      <div class="tool-row"><div class="tool-num">02</div><div class="tool-body"><div class="tool-tag">The Context</div><div class="tool-name">Market Narrative</div><div class="tool-desc">The section most agents skip. Enter the neighbourhood, available market data, trend direction, and seller goal — get 3–4 named sections covering current conditions, recent sales activity, what it means for pricing, and timing considerations. Calibrated to the seller's goal — a maximum-price seller gets a different narrative than a quick-sale seller.</div><div class="tool-chips"><span class="tool-chip">3–4 named sections</span><span class="tool-chip">Key takeaway</span><span class="tool-chip">Goal calibrated</span><span class="tool-chip">Data-informed</span></div></div></div>
+      <div class="tool-row"><div class="tool-num">03</div><div class="tool-body"><div class="tool-tag">The Conversation</div><div class="tool-name">Pricing Strategy</div><div class="tool-desc">Three genuine strategies — Aggressive, Market, Conservative — each with price point, 2-sentence rationale, pros, cons, best-for scenario, and agent recommendation. Sellers who choose their strategy buy into the process. Sellers who are told a number push back on it. The tool that changes the listing presentation dynamic from defence to decision.</div><div class="tool-chips"><span class="tool-chip">3 strategies</span><span class="tool-chip">Pros & cons</span><span class="tool-chip">Best-for scenarios</span><span class="tool-chip">Agent recommendation</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="eyebrow">Pricing Strategy</p>
+    <h2 class="section-title">Three options.<em>One choice.</em></h2>
+    <p class="section-sub">Instead of "here's the price" followed by "but I want more" — three genuine strategies with clear trade-offs, so the seller makes a decision rather than an objection.</p>
+    <div class="strategy-grid">
+      <div class="strategy-card">
+        <div class="sc-type" style="background:rgba(239,68,68,0.1);color:#EF4444;border:1px solid rgba(239,68,68,0.2)">Aggressive</div>
+        <div class="sc-name">Test the ceiling</div>
+        <div class="sc-desc">The price that maximises upside. For sellers with no timeline pressure and a property that genuinely outperforms the comps. Comes with the risk of extended DOM and price reduction stigma.</div>
+      </div>
+      <div class="strategy-card" style="border-top:3px solid var(--emerald)">
+        <div class="sc-type" style="background:rgba(16,185,129,0.1);color:var(--emerald);border:1px solid rgba(16,185,129,0.2)">Market</div>
+        <div class="sc-name">What the data supports</div>
+        <div class="sc-desc">The price comparable properties have achieved. Generates strong buyer interest without leaving money on the table. The right strategy for most sellers in most markets.</div>
+      </div>
+      <div class="strategy-card">
+        <div class="sc-type" style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.2)">Conservative</div>
+        <div class="sc-name">Speed and certainty</div>
+        <div class="sc-desc">The price that prioritises a fast, clean close. Often generates multiple offers above asking. For sellers with a hard deadline or who need certainty over maximum return.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="eyebrow">What agents say</p>
+    <h2 class="section-title">More listings.<em>Fewer price negotiations.</em></h2>
+    <div class="test-grid">
+      <div class="test-card"><div class="stars">★★★★★</div><p>"I've been doing listing presentations for 14 years. The pricing strategy section changed my presentations most. I used to present one number and spend 20 minutes defending it. Now I present three options and the seller picks one. I signed my last four listings without a single price negotiation."</p><p class="test-attr">Listing Agent · Austin TX</p></div>
+      <div class="test-card"><div class="stars">★★★★★</div><p>"The market narrative section is what my sellers respond to most. They want to know why the market is where it is. The generator gives me a professional answer. My last seller told me I was the most prepared agent they'd met."</p><p class="test-attr">Residential Agent · Nashville TN</p></div>
+      <div class="test-card"><div class="stars">★★★★★</div><p>"I use the seller note every time I know the seller has an unrealistic expectation. It addresses the gap in the document — so we're having the pricing conversation in writing before we sit down. It has saved me from three awkward listing appointments in two months."</p><p class="test-attr">Team Leader · Denver CO</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="pricing">
+  <div class="container">
+    <p class="eyebrow" style="text-align:center">Pricing</p>
+    <h2 class="section-title" style="text-align:center">Three tools.<em>One price.</em></h2>
+    <div class="pricing-card">
+      <div class="pricing-top">
+        <div class="pricing-kicker">CMA Report Builder</div>
+        <div class="price">$67</div>
+        <div class="price-sub">One-time · No subscription · Instant download</div>
+      </div>
+      <div class="pricing-body">
+        <ul class="feature-list">
+          <li><span class="check">✦</span>CMA generator — price range banner, comp table, analysis sections, recommendation, seller note</li>
+          <li><span class="check">✦</span>Market narrative — 3–4 named sections, key takeaway, calibrated to seller goal</li>
+          <li><span class="check">✦</span>Pricing strategy — 3 strategies, pros/cons, best-for scenarios, agent recommendation</li>
+          <li><span class="check">✦</span>Works in any browser — no install, no login</li>
+          <li><span class="check">✦</span>Lifetime access — yours forever</li>
+        </ul>
+        <a href="https://malikreagan.gumroad.com/l/cma-report-builder" class="btn-purchase">Get the CMA Report Builder — $67</a>
+        <p class="guarantee">7-day money-back guarantee · No questions asked</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="eyebrow">FAQ</p>
+    <h2 class="section-title" style="margin-bottom:0">Questions.</h2>
+    <div class="faq-list" id="faqList"></div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <h2>Win the listing<em>appointment.</em></h2>
+    <p>CMA report, market narrative, pricing strategy. The complete listing presentation toolkit for agents who want to close the appointment, not just attend it.</p>
+    <a href="https://malikreagan.gumroad.com/l/cma-report-builder" class="btn-primary">Get the CMA Report Builder — $67</a>
+    <p class="cta-note">One-time · 7-day guarantee · Instant download</p>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">📊 CMA Report Builder</div>
+  <div class="footer-links"><a href="#">Privacy</a><a href="#">Refund Policy</a><a href="mailto:hello@malikreagan.com">Contact</a></div>
+</footer>
+
+<script>
+const FAQS=[
+  {q:"How many comps can I add?",a:"No limit — add as many comps as your analysis requires. The tool pre-loads three sample comps so the interface is immediately useful on open. Each comp includes address, specs, price, status (Sold/Active/Pending), days ago, and notes on key differences. The comp table in the generated report shows all comps with the subject property highlighted at the recommended price."},
+  {q:"How does the seller note work?",a:"If you enter the seller's target price in the subject property section, the CMA generator includes a diplomatic seller note in the pricing recommendation box — a single sentence that addresses the gap between the data-supported price and the seller's expectation, written to be honest without being confrontational. It's the sentence that starts the pricing conversation before the appointment, not during it."},
+  {q:"Can I use the pricing strategy tool without doing a full CMA?",a:"Yes — the three tools are independent. The Pricing Strategy builder works from a comp-derived range you enter manually, so you can use it with your existing CMA workflow, your MLS data, or any other source. Similarly, the Market Narrative can be generated independently and inserted into any CMA format you already use."},
+  {q:"How is the market narrative calibrated to the seller's goal?",a:"The seller goal selection changes the emphasis and tone of the narrative. A seller who wants maximum price gets a narrative that focuses on market momentum, low inventory, and the opportunity to test the upper end of the range. A seller who needs a quick close gets a narrative that focuses on the cost of overpricing — extended DOM, price reduction stigma, and the mathematics of carrying costs vs a slightly lower but certain sale. Same market data, different implications depending on what the seller is optimising for."},
+  {q:"What format is the tool?",a:"A single HTML file that opens in any browser — no install, no login, no account. Works on Mac and Windows. Requires an internet connection for AI generation. Export the CMA to PDF using the browser's print function — the output is formatted to print cleanly as a professional CMA document."}
+];
+const faqList=document.getElementById('faqList');
+FAQS.forEach((f,i)=>{
+  const div=document.createElement('div');div.className='faq-item';
+  div.innerHTML=`<button class="faq-q" onclick="toggleFaq(${i})">${f.q}<span class="faq-toggle" id="ftog${i}">+</span></button><div class="faq-a" id="fans${i}">${f.a}</div>`;
+  faqList.appendChild(div);
+});
+function toggleFaq(i){
+  const ans=document.getElementById('fans'+i);const tog=document.getElementById('ftog'+i);
+  const open=ans.style.display==='block';
+  document.querySelectorAll('.faq-a').forEach(a=>a.style.display='none');
+  document.querySelectorAll('.faq-toggle').forEach(t=>t.textContent='+');
+  if(!open){ans.style.display='block';tog.textContent='−';}
+}
+const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.style.opacity='1';e.target.style.transform='translateY(0)';}});},{threshold:0.07});
+document.querySelectorAll('.section').forEach(s=>{s.style.opacity='0';s.style.transform='translateY(18px)';s.style.transition='opacity 0.5s ease, transform 0.5s ease';obs.observe(s);});
+</script>
+</body>
+</html>
